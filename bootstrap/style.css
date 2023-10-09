@@ -1,0 +1,37 @@
+.col-md-6 {
+    text align: center;
+}
+h2 {
+    text-align: center;
+}
+p {text-align: center;
+}
+img {align-content: center;
+}
+i {size: 3em;
+}
+h3 {text-align: center;
+}
+.bi bi-amd {size: 3em;
+}
+h3 {text-align: center;
+}
+p {text-align: center;
+}
+
+h1 {font-family: "Special Elite";
+}
+h2 {font-family: "Special Elite";
+}
+h3 {font-family: "Special Elite";
+}
+.navbar-bran {font-family: "Special Elite";
+}
+.btn {font-family: "Special Elite";
+}
+.row {padding-bottom: 50px;
+}
+@media only screen and (max-width: 500px) {
+
+
+	INSERT STYLES HERE FOR SCREENS BELOW 500px}
