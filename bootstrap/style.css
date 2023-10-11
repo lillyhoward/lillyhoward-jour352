@@ -1,5 +1,5 @@
 .col-md-6 {
-    text align: center;
+    text-align: center;
 }
 h2 {
     text-align: center;
@@ -12,26 +12,23 @@ i {size: 3em;
 }
 h3 {text-align: center;
 }
-.bi bi-amd {size: 3em;
-}
-h3 {text-align: center;
+.bi {size: 3em;
 }
 p {text-align: left;
 }
-
 h1 {font-family: "Special Elite";
 }
 h2 {font-family: "Special Elite";
 }
 h3 {font-family: "Special Elite";
 }
-.navbar-bran {font-family: "Special Elite";
+.navbar-brand {font-family: "Special Elite";
 }
 .btn {font-family: "Special Elite";
+    text-align: center;
 }
 .row {padding-bottom: 50px;
 }
-@media only screen and (max-width: 500px) {
-
-
-	INSERT STYLES HERE FOR SCREENS BELOW 500px}
+@media only screen and (max-width: 500px) { 
+    INSERT STYLES HERE FOR SCREENS BELOW 500px
+}
