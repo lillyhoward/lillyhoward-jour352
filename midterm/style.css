@@ -1,0 +1,65 @@
+#content {
+    width:100%;
+    max-width:900px;
+    margin: 0 auto;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+img {width:100%;
+    max-width:900px;
+    margin:0 auto;
+}
+#byline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size:20px;
+}
+/*start story text*/
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px; 
+    text-align: center;
+}
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px; 
+}
+blockquote {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px; 
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+}
+h7 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+h8 {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    font-style: italic;
+}
+.subhead {
+    font-family:Verdana, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+}
+/*end story text*/
+.designers.h6 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 10px;
+    font-style: italic;
+}
+.designers.h10 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    border-color: navy;
+}
