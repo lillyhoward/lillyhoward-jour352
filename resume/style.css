@@ -5,7 +5,8 @@
     margin: 0 auto;
     align-items: center;
 }
-img {width:100%;
+img {
+    width:100%;
     max-width:900px;
     margin:0 auto;
 }
@@ -22,10 +23,10 @@ BODY {
    text-align: center;
 }
 #title {
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Grande', sans-serif;
     color: black;
-    font-weight: 600px;
+    font-weight: 200px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
