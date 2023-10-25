@@ -113,10 +113,6 @@ BODY {
 .col-md-3 {
     color: #B3DDE3; 
 }
-h3 {
-    font-family: 'Trebuchet MS', 'Lucida Grande', sans-serif;
-    font-size: 1em;
-}
 @media screen and (max-width: 480px) {
     /*Add CSS that only activates on screens less than 480x here*/
     
