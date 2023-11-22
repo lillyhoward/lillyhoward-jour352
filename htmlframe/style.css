@@ -1,6 +1,6 @@
 .headline {
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -9,12 +9,24 @@
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: red;
 }
-.chapter {
-    font-size: 3em;
-    font-weight: 600;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
+.opening-letter::first-letter {
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+    float:left;
+    line-height: 0.8;
+    margin-top:0.1em;
+    margin-left:-0.05em;
+    margin-right:0.5em;
+    font-weight: 400;
+    background: red;
+    color:white;
+    padding:5px 10px 5px 10px;
+    margin-right:10px;
+}
+.first-words {
+    text-transform: uppercase;
 }
 .img {
     margin: 0 auto;
@@ -30,13 +42,117 @@ p {
     font-family: 'Montserrat', sans-serif;
     text-align: left; 
 }
-.row {
+/*chart elements*/
+.chart-title {
     text-align: center;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+  
+  .chart-description{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+  }
+  
+  .chart-author{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    font-weight: 100px;
+    padding-bottom: 20px;
+    text-transform:uppercase;
+  }
+  
+  .chart-source{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 100px;
+    font-style: italic;
+  }
+  
+  .chart-subtitle, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+  
+  }
+
 .footer {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     background-color: black;
     color:aliceblue;
+}
+
+/*tophat */
+.nav-logo {
+    color: white;
+    margin: 0 auto;
+    font-weight: 800;
+    text-transform:uppercase;
+}
+.red {
+    color:red;
+}
+/*Splash area*/
+.hero-container {
+    position:relative;
+    text-align:center;
+    color:white;
+}
+.hero-image {
+    width:100%; 
+}
+.overlay {
+    position:absolute;
+    top:20%;
+    width:100%;
+    background:black;
+    opacity:0.7;
+}
+.hero-head {
+    font-family: "Playfair Display", serif;
+    font-size:6em;
+    color:white; 
+    margin:0 auto;
+    padding-bottom:10px;
+}
+.hero-sub {
+    font-family: "Montserrat", sans-serif;
+    font-size:.25em;
+    color: red;
+    font-weight:bold;
+}
+/*quote*/
+.quote {
+    font-family:"Montserrat", sans-serif;
+    color:red;
+    font-size:3em;
+    font-weight:700;
+    text-align:left;
+    padding: 15px 0 15px 0;
+    border-top: 1px solid red; 
+    border-bottom: 1px solid red; 
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.quote-attribution {
+    font-size: .5em;
+    font-family:"Montserrat", sans-serif;
+    font-weight:100;
+    text-align:left;
+    color:black;
+}
+/*Media Queries*/
+@media(max-width:700px) {
+    p {
+        padding-left:20px;
+        padding-right:10px;
+    }
+    .hero-head {
+        font-size:1.5em;
+    }
 }
