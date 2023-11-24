@@ -56,13 +56,13 @@ p {
   }
   
   .chart-description{
-    text-align: left;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
   }
   
   .chart-author{
-    text-align: left;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: .7em;
     font-weight: 100px;
@@ -71,7 +71,7 @@ p {
   }
   
   .chart-source{
-    text-align: left;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 100px;
@@ -81,6 +81,7 @@ p {
   .chart-subtitle, h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    text-align: center;
   
   }
   .bmore-graphic {
@@ -109,7 +110,7 @@ p {
     padding-right: 3em;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
     color:#303030;
   }
   
@@ -118,7 +119,7 @@ p {
     padding-right: 1em;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
   }
   
   .text-box-source-text{
@@ -126,7 +127,7 @@ p {
     padding-right: 1em;
     font-family: 'Montserrat', sans-serif;
     font-size: .8em;
-    text-align: left;
+    text-align: center;
     color:#303030;
   }
   
