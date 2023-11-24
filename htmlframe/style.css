@@ -1,8 +1,12 @@
 .headline {
-    font-size: 3em;
-    font-weight: 900;
+    font-size: 4em;
+    font-weight: 600;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Playfair Display", serif;
+    color: darkred;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 2px solid black;
+
 }
 .byline {
     font-size: 1em;
@@ -45,9 +49,10 @@ p {
 /*chart elements*/
 .chart-title {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 1.5em;
     text-transform: uppercase;
+    color: darkred;
   }
   
   .chart-description{
@@ -149,6 +154,9 @@ p {
 .red {
     color:red;
 }
+.darkred {
+    color:darkred; 
+}
 /*Splash area*/
 .hero-container {
     position:relative;
@@ -168,7 +176,7 @@ p {
 .hero-head {
     font-family: "Playfair Display", serif;
     font-size:6em;
-    color:white; 
+    color:darkred; 
     margin:0 auto;
     padding-bottom:10px;
 }
@@ -184,18 +192,18 @@ p {
     color:red;
     font-size:3em;
     font-weight:700;
-    text-align:left;
-    padding: 15px 0 15px 0;
-    border-top: 1px solid red; 
-    border-bottom: 1px solid red; 
+    text-align:center;
+    padding: 20px 0 20px 0;
+    border-top: 5px solid darkred; 
+    border-bottom: 5px solid darkred; 
     margin-top:20px;
     margin-bottom:20px;
 }
 .quote-attribution {
     font-size: .5em;
     font-family:"Montserrat", sans-serif;
-    font-weight:100;
-    text-align:left;
+    font-weight:bold;
+    text-align:center;
     color:black;
 }
 /*Media Queries*/
