@@ -24,7 +24,7 @@
     margin-left:-0.05em;
     margin-right:0.5em;
     font-weight: 400;
-    background: red;
+    background: darkred;
     color:white;
     padding:5px 10px 5px 10px;
     margin-right:10px;
@@ -88,13 +88,12 @@ p {
     max-width:900px;
     padding-top: 5;
     padding-bottom: 5;
-
   }
   .text-box{
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
-    border: solid #F23030 1px;
+    border: solid darkred;
   }
   
   .text-box-title{
@@ -102,7 +101,7 @@ p {
     font-size: 1.25em;
     text-align: center;
     color:	white;
-    background: #F23030;;
+    background: darkred;
   }
   
   .text-box-text{
