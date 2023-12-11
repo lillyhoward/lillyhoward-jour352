@@ -43,8 +43,8 @@
 }
 /*storychapter1*/
 .headline {
-    font-family:  "Playfair Display", serif;
-    font-size: 2em;
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
     color: black;
     font-weight: bold;
     text-align: center; 
@@ -57,9 +57,11 @@
 }
 .chapter {
     text-align: left;
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid royalblue;
 }
 /*graphic*/
 .map-graphic {
