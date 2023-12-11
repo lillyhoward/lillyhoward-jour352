@@ -61,7 +61,8 @@
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    border-bottom: 5px solid royalblue;
+    border-bottom: 2px solid royalblue;
+    border-top: 2px solid royalblue;
 }
 /*graphic*/
 .map-graphic {
