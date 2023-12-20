@@ -1,16 +1,16 @@
 /*"styles for my resume"*/
 #header {
-    width:100%;
-    max-width:900px;
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
     align-items: center;
 }
-img {
+.img {
     width:100%;
     max-width:900px;
     margin:0 auto;
 }
-BODY {
+.BODY {
     color: #444;
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Grande', sans-serif;
