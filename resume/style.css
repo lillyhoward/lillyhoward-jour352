@@ -1,9 +1,16 @@
 /*"styles for my resume"*/
-#header {
+.header {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     align-items: center;
+}
+.headshot {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 20px;
 }
 .img {
     width:100%;
@@ -105,6 +112,8 @@
 }
 .bolded {
     font-weight: bold;
+    border-bottom: 2px solid #B3DDE3;
+    font-family: 'Trebuchet MS', 'Lucida Grande', sans-serif;
 }
 .link {
     font-weight: bold;
